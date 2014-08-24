@@ -98,7 +98,7 @@ if ($display == 1) {
   $num = 0;
 
   $msg .= '<table border="2">';
-  $msg .= '<caption><h2>Devices</h2></caption>';
+  $msg .= '<caption><h2>Modules</h2></caption>';
   $msg .= '<tr><th>ID</th><th>Name</th><th>Station</th></tr>';
 
   foreach ($modules as $module) {
@@ -114,7 +114,7 @@ if ($display == 1) {
   $msg .= "</table>";
 
   $head = '<head>';
-  $head .= '<title>Stations & Devices ID</title>';
+  $head .= '<title>Stations & Modules ID</title>';
   $head .= '</head>';
   echo '<html>' . $head . $msg . '</html>';
   exit;
