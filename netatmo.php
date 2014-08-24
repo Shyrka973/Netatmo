@@ -145,7 +145,7 @@ if ($stationNo < count($stations)) {
 				$type = "Temperature,Sp_Temperature,BoilerOn,BoilerOff";
 				break;
 			case "NATherm1": # thermostat module
-				$type = "Temperature, Sp_Temperature, BoilerOn, BoilerOff";
+				$type = "Temperature,Sp_Temperature,BoilerOn,BoilerOff";
 				break;
 		  default:
 			$err = "Type of module unknown";
