@@ -1,5 +1,14 @@
 <?php
 
+##########################################
+#   Author: Andre Duclos
+#  Created: 2014-08-16
+# Modified: 2014-08-23
+#
+#  Version: 0.1
+#    https://github.com/Shyrka973/Netatmo
+##########################################
+
 $stationNo = 0;
 $moduleNo = -1;
 $display = 0;
